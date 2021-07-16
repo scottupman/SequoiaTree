@@ -153,12 +153,13 @@ int main()
       return 1;
     }
   }
-  //cout << seq << endl;
+  cout << seq << endl;
   out << seq << endl;
 
   //Remove all values in del from seq
   //Check for problems in tree
   //Assume everything in del is in tree
+  
   for (int x : del)
   {
     seq.remove(x);
@@ -169,9 +170,10 @@ int main()
       return 1;
     }
   }
-  //cout << seq << endl;
+  cout << seq << endl;
   out << seq << endl;
   out.close();
 
   return 0;
+  
 }
